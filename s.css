@@ -1,0 +1,11 @@
+div{
+  
+    display:flex;
+    flex-direction: column;
+   border-radius: 40px;
+    padding:5px
+}
+body{
+    
+    background-image: url(z.png);
+}
