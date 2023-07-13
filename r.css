@@ -54,10 +54,16 @@ body{
 }
 h2.h{
     background-color:rgba(243, 227, 206,0.9);
+      border-radius: 30px;
+    padding: 0,10px,0,10px;
 }
 h2.p{
     background-color:rgba(243, 227, 206,0.9);
+      border-radius: 30px;
+    padding: 0,10px,0,10px;
 }
+h2.c{
+background-color:rgba(243, 227, 206,0.9);}
 img.b{
     width: 550px;
     height: 300px;
