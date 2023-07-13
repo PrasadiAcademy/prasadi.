@@ -50,14 +50,21 @@ body{
     background-image: url(z.png);
     
 }
-img{
-    width: 550px;
-    height: 300px;
-    float:left;
+
 }
 h2.h{
     background-color:rgba(243, 227, 206,0.9);
 }
 h2.p{
     background-color:rgba(243, 227, 206,0.9);
+}
+img.b{
+    width: 550px;
+    height: 300px;
+    float:left;
+}
+img.o{
+    width: 550px;
+    height: 300px;
+    float:right;
 }
