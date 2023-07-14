@@ -1,3 +1,37 @@
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 15px rgba( 0,0,0,0.06);
+    position:sticky;
+    top:0;
+    left:0;
+    
+}
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#navbar li{
+    padding:0 60px;
+    list-style: none;
+    position:relative;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+ li a.active {
+    color:blue;
+
+}
+
 div{
   
     display:flex;
@@ -8,4 +42,7 @@ div{
 body{
     
     background-image: url(z.png);
+}
+h1{
+    font-family:sans-serif;
 }
