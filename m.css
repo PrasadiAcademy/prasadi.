@@ -7,7 +7,6 @@ body{
     background-image: url(z.png);
     
 }
-
 #header{
     display: flex;
     align-items:center;
@@ -37,8 +36,21 @@ body{
     font-weight: 600;
     transition: 0.3s ease;
 }
-a.t{
+#navbar li a:hover,
+#navbar li a.active {
     color:blue;
+
 }
+#navbar li a.active::after {
+
+      content: "";
+      Width: 30%;
+      height:2px;
+      background:#e3e6f3;
+      position:absolute;
+      bottom: -4px;
+      left: 20px;
+}
+
 
     h1.e{     background-color:rgba(243, 227, 206,0.9);}
