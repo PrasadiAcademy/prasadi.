@@ -54,3 +54,12 @@ body{
 
 
     h1.e{     background-color:rgba(243, 227, 206,0.9);}
+ img.e{
+        width:200px;
+        height:200px;
+        float:right;
+        border-radius: 80px;
+        
+        
+    
+    }
