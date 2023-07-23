@@ -18,6 +18,7 @@ body{
     background-color:#190a80;
     color: #fff;
     padding: 20px 0;
+      position:fixed;
   }
   
   .navbar .container {
